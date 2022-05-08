@@ -6,10 +6,12 @@ package Lernjournal.Unit.Test;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.Assertions;
+
 class AppTest {
     @Test 
         public void BussenConverter_keineBusse (){
         Bussenconverter busse = new Bussenconverter();
-        Assertions.assertEquals(expected:"Keine Busse", busse.convert(i:0));
+        Assertions.assertEquals("Keine Busse", busse.convert(0));
     }
 }
