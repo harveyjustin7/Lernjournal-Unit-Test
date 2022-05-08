@@ -42,4 +42,9 @@ class AppTest {
         Bussenconverter busse = new Bussenconverter();
         Assertions.assertEquals("Anzeige mit Verwarnung", busse.convert(29));
         }
+    @Test
+        public void Bussenconverter_AnzeigeFüE1M(){
+        Bussenconverter busse = new Bussenconverter();
+        Assertions.assertEquals ("Anzeige und Führerausweisentzug von mind. 1 Monat", busse.convert(33));
+        }
 }
