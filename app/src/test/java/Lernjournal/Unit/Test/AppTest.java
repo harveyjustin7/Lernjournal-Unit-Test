@@ -47,4 +47,10 @@ class AppTest {
         Bussenconverter busse = new Bussenconverter();
         Assertions.assertEquals ("Anzeige und Führerausweisentzug von mind. 1 Monat", busse.convert(33));
         }
+    @Test
+        public void Bussenconverter_AnzeigeFüE3M(){
+        Bussenconverter busse = new Bussenconverter();
+        Assertions.assertEquals ("Anzeige und Führerausweisentzug von mind. 3 Monaten", busse.convert(76));
+        
+        }
 }
