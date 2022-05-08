@@ -22,4 +22,9 @@ class AppTest {
         Bussenconverter busse = new Bussenconverter();
         Assertions.assertEquals("Busse von CHF 60", busse.convert(10));
         }
+    @Test
+        public void Bussenconverter_Bussevon120(){
+        Bussenconverter busse = new Bussenconverter();
+        Assertions.assertEquals("Busse von CHF 120", busse.convert(13));
+        }
 }
