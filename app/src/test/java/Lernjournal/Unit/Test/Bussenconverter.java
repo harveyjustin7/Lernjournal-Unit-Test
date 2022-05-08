@@ -29,6 +29,6 @@ package Lernjournal.Unit.Test;
         if (i>=80){
             return "Raserdelikt Anzeige, Führerausweisentzug für mind. 2 Jahre, Fahreignungs-Untersuchung";
         }
-            return "Keine Busse";
+            return "Keine Busse da keine Geschwindigkeitsüberschreitung";
     }
  }
