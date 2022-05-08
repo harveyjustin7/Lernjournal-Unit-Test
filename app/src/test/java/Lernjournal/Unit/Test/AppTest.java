@@ -40,7 +40,6 @@ class AppTest {
     @Test
         public void Bussenconverter_AnzeigemitVerwarnung(){
         Bussenconverter busse = new Bussenconverter();
-        Assertions.assertEquals("Anzeige mit Verwarnung", 29);
+        Assertions.assertEquals("Anzeige mit Verwarnung", busse.convert(29));
         }
 }
-    

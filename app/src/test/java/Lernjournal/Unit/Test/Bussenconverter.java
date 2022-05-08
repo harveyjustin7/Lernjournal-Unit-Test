@@ -17,6 +17,9 @@ package Lernjournal.Unit.Test;
         if (i>=21 && i<26){
             return "Busse von CHF 260";
         }
+        if (i>=26 && i<31){
+            return "Anzeige mit Verwarnung";
+        }
             return "Keine Busse";
     }
  }
