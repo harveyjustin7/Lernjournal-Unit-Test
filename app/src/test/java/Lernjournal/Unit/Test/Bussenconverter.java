@@ -26,6 +26,9 @@ package Lernjournal.Unit.Test;
         if (i>=35 && i<80){
             return "Anzeige und Führerausweisentzug von mind. 3 Monaten";
         }
+        if (i>=80){
+            return "Raserdelikt Anzeige, Führerausweisentzug für mind. 2 Jahre, Fahreignungs-Untersuchung";
+        }
             return "Keine Busse";
     }
  }
