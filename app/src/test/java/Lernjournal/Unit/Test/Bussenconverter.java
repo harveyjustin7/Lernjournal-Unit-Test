@@ -23,9 +23,9 @@ package Lernjournal.Unit.Test;
         if (i>=31 && i<35){
             return "Anzeige und Führerausweisentzug von mind. 1 Monat";
         }
-       // if (i>=35 && i<80){
-        //    return "Anzeige mit Führerausweisentzug von mind. 3 Monaten";
-       // }
+        if (i>=35 && i<80){
+            return "Anzeige und Führerausweisentzug von mind. 3 Monaten";
+        }
             return "Keine Busse";
     }
  }

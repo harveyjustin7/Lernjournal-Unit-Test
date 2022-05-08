@@ -53,4 +53,10 @@ class AppTest {
         Assertions.assertEquals ("Anzeige und Führerausweisentzug von mind. 3 Monaten", busse.convert(76));
         
         }
+     
+        @Test
+        public void Bussenconverter_Raserdelikt(){
+        Bussenconverter busse = new Bussenconverter();
+        Assertions.assertEquals ("Raserdelikt Anzeige, Führerausweisentzug für mind. 2 Jahre, Fahreignungs-Untersuchung", busse.convert(83));
+        }
 }
