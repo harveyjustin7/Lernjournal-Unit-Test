@@ -4,8 +4,6 @@
 package Lernjournal.Unit.Test;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Assertions;
 
 class AppTest {
@@ -18,5 +16,10 @@ class AppTest {
         public void Bussenconverter_Bussevon20(){
         Bussenconverter busse = new Bussenconverter();
         Assertions.assertEquals("Busse von CHF 20", busse.convert(5));
+        }
+    @Test 
+        public void Bussenconverter_Bussevon60(){
+        Bussenconverter busse = new Bussenconverter();
+        Assertions.assertEquals("Busse von CHF 60", busse.convert(10));
         }
 }
