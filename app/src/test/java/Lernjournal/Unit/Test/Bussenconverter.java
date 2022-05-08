@@ -20,6 +20,9 @@ package Lernjournal.Unit.Test;
         if (i>=26 && i<31){
             return "Anzeige mit Verwarnung";
         }
+        if (i>=31 && i<35){
+            return "Anzeige und Führerausweisentzug von mind. 1 Monat";
+        }
             return "Keine Busse";
     }
  }
