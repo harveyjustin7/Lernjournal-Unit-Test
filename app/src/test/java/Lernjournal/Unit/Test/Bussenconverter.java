@@ -11,6 +11,9 @@ package Lernjournal.Unit.Test;
         if (i>=10 && i<16){
             return "Busse von CHF 120";
         }
+        if (i>=16 && i<21){
+            return "Busse von CHF 180";
+        }
             return "Keine Busse";
     }
  }
